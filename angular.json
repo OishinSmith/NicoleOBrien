@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "oishinsmith": {
+    "nicoleobrien": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/oishinsmith",
+            "outputPath": "dist/nicoleobrien",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -78,10 +78,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "oishinsmith:build:production"
+              "browserTarget": "nicoleobrien:build:production"
             },
             "development": {
-              "browserTarget": "oishinsmith:build:development"
+              "browserTarget": "nicoleobrien:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -89,7 +89,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "oishinsmith:build"
+            "browserTarget": "nicoleobrien:build"
           }
         },
         "test": {
@@ -112,5 +112,8 @@
       }
     }
   },
-  "defaultProject": "oishinsmith"
+  "defaultProject": "nicoleobrien",
+  "cli": {
+    "analytics": false
+  }
 }
