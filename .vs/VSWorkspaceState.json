@@ -6,8 +6,11 @@
     "\\src\\app\\css",
     "\\src\\assets",
     "\\src\\assets\\css",
+    "\\src\\assets\\img",
+    "\\src\\assets\\img\\portfolio",
+    "\\src\\assets\\img\\portfolio\\modals",
     "\\src\\assets\\js"
   ],
-  "SelectedNode": "\\src\\assets\\js\\main.js",
+  "SelectedNode": "\\src\\assets\\img\\portfolio\\salad.jpg",
   "PreviewInSolutionExplorer": false
 }
